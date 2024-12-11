@@ -1,0 +1,87 @@
+.wallpaper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.wave-text {
+    font-family: "Yuji Mai", serif;
+    color: white;
+    font-size: 20px;
+    overflow: auto;
+    text-align: center;
+}
+
+.Imagen1,
+.Imagen2,
+.Imagen3,
+.Imagen4,
+.Imagen5,
+.Imagen6,
+.Imagen7,
+.Imagen8 {
+    width: 12rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 100px;
+    flex-direction: column;
+    margin: 2rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    animation: infinite Imagenes 4s;
+}
+
+.retrato1{
+    display: flex;
+    margin-left: 6rem;
+}
+
+.retrato2{
+    display: flex;
+    margin-left: 6rem;
+}
+
+@keyframes Imagenes {
+    10%{
+        border: 2px solid red;
+    }
+    20%{
+        border: 2px solid orange;
+    }
+    30%{
+        border: 2px solid yellow;
+    }
+    40%{
+        border: 2px solid green;
+    }
+    50%{
+        border: 2px solid rgb(0, 191, 255);
+    }
+    60%{
+        border: 2px solid blue;
+    }
+    70%{
+        border: 2px solid purple;
+    }
+    80%{
+        border: 2px solid violet;
+    }
+    90%{
+        border: 2px solid pink;
+    }
+    100%{
+        border: 2px solid red;
+    }
+};
